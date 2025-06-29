@@ -17,8 +17,6 @@ export function LogStream() {
       socket.off('log', onNewLog);
     };
   }, []);
-
-  // The component is now incredibly simple. All the complexity is abstracted away.
   return (
     <div>
       <h1>Nexus Pro - Live Log Stream</h1>
